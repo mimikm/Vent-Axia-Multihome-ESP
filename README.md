@@ -71,6 +71,13 @@ ota_password: "a_very_strong_password"
 api_encryption_key: "your-generated-base64-key-here"
 # Generate with: esphome wizard vent-axia.yaml</code></pre>
 
+![ventaxia esp](https://github.com/user-attachments/assets/48b97e08-bfe2-46a5-9a7d-5f44600711c5)
+
+MEV PCB has 5v powersupply which can be used for supplying power to ESP (white USB cable).<br>
+Two outputs wired from ESP to correct analog inputs on MEV PCB.<br>
+Last thing to do is to set MEV input levels correctly. For me it Vent-Axia Connect settings look like that: <awaiting screenshots><br>
+
+
 <h2>Useful Automations (Home Assistant)</h2>
 
 <ul>
@@ -108,3 +115,4 @@ api_encryption_key: "your-generated-base64-key-here"
 
 </body>
 </html>
+
